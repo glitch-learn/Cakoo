@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact — Cakoo Bakery</title>
+  <meta name="description" content="Get in touch with Cakoo Bakery. Order via WhatsApp, visit us in Attock, Wah Cantt, or check our 3rd branch opening. Follow @cakoobakery." />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body data-page="contact">
+
+  <div class="cursor-dot"></div>
+  <div class="cursor-ring"></div>
+
+  <div class="page-transition">
+
+  <!-- NAV -->
+  <nav id="stickyNav" class="sticky-nav scrolled">
+    <div class="nav-inner">
+      <a href="index.html" class="logo" data-transition>Cakoo<span>.</span></a>
+      <ul id="navLinks" class="nav-links">
+        <li><a href="index.html" data-page="home" data-transition>Home</a></li>
+        <li><a href="menu.html" data-page="menu" data-transition>Menu</a></li>
+        <li><a href="gallery.html" data-page="gallery" data-transition>Gallery</a></li>
+        <li><a href="about.html" data-page="about" data-transition>About</a></li>
+        <li><a href="contact.html" data-page="contact" data-transition>Contact</a></li>
+        <li><a href="https://wa.me/923299927777?text=Hi%20Cakoo!%20I'd%20like%20to%20browse%20your%20menu" target="_blank" class="nav-cta">Order Now</a></li>
+        <li><a href="https://wa.me/923299927777?text=Hi%20Cakoo!%20I'd%20like%20to%20browse%20your%20menu" target="_blank" class="mobile-cta">Order Now</a></li>
+      </ul>
+      <div id="hamburger" class="hamburger"><span></span><span></span><span></span></div>
+    </div>
+  </nav>
+
+  <!-- PAGE HEADER -->
+  <section class="page-header">
+    <div class="container" style="text-align:center">
+      <span class="section-tag" style="color:var(--gold)">Get in Touch</span>
+      <h1>Let's <span>Connect</span></h1>
+      <p>Place an order, ask a question, or just say hello — we're always happy to hear from you.</p>
+    </div>
+  </section>
+
+  <!-- WHATSAPP CARD -->
+  <section class="section" style="padding-top:0">
+    <div class="container">
+      <div class="contact-highlight glass-reveal">
+        <span class="icon">💬</span>
+        <h2>Order via WhatsApp</h2>
+        <p>Tap below to message us directly. Send us your order, and we'll confirm in minutes.</p>
+        <a href="https://wa.me/923299927777" target="_blank" class="hero-cta magnetic">Chat on WhatsApp →</a>
+        <p style="margin-top:1rem;font-family:'IBM Plex Mono',monospace;font-size:0.85rem;color:rgba(36,20,16,0.35)">+92 329 9927777</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- BRANCHES -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header glass-reveal">
+        <span class="section-tag">Visit Us</span>
+        <h2>Our <span>Branches</span></h2>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-card glass-reveal stagger">
+          <span class="card-icon">📍</span>
+          <h3>Attock City</h3>
+          <p class="address">Opposite Total Parco Petrol Station<br/>3 Meela Chowk, Attock City</p>
+          <a href="https://wa.me/923299927777?text=Hi%20Cakoo!%20I'd%20like%20to%20order%20from%20Attock" target="_blank" class="contact-link">Order for Attock →</a>
+          <a href="https://maps.google.com/?q=Opposite+Total+Parco+3+Meela+Chowk+Attock" target="_blank" class="contact-link" style="color:rgba(36,20,16,0.4)">View on Maps →</a>
+        </div>
+        <div class="contact-card glass-reveal stagger">
+          <span class="card-icon">📍</span>
+          <h3>Wah Cantt</h3>
+          <p class="address">Basti Minar Road<br/>Wah Cantt</p>
+          <a href="https://wa.me/923299927777?text=Hi%20Cakoo!%20I'd%20like%20to%20order%20from%20Wah%20Cantt" target="_blank" class="contact-link">Order for Wah Cantt →</a>
+          <a href="https://maps.google.com/?q=Basti+Minar+Road+Wah+Cantt" target="_blank" class="contact-link" style="color:rgba(36,20,16,0.4)">View on Maps →</a>
+        </div>
+        <div class="contact-card glass-reveal stagger">
+          <span class="card-icon">🎉</span>
+          <h3>3rd Branch — Opening Soon</h3>
+          <p class="address">Opening <strong>Sunday, 28th June, 5PM</strong></p>
+          <p style="font-size:0.85rem;color:rgba(36,20,16,0.4);margin-bottom:1rem">Exact address TBA — follow us on Instagram for the announcement!</p>
+          <a href="https://instagram.com/cakoobakery" target="_blank" class="contact-link">Follow @cakoobakery →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ORDER INQUIRY FORM -->
+  <section class="section" style="background:var(--white)">
+    <div class="container">
+      <div class="section-header glass-reveal">
+        <span class="section-tag">Quick Order</span>
+        <h2>Send Us a <span>Message</span></h2>
+        <p>Fill this out and we'll get back to you on WhatsApp right away.</p>
+      </div>
+      <div class="order-form-wrap glass-reveal">
+        <form id="orderForm">
+          <div class="form-group">
+            <label for="formName">Your Name</label>
+            <input type="text" id="formName" placeholder="e.g. Ali" required />
+          </div>
+          <div class="form-group">
+            <label for="formBranch">Branch</label>
+            <select id="formBranch">
+              <option value="Attock">Attock City</option>
+              <option value="Wah Cantt">Wah Cantt</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="formOrder">Your Order</label>
+            <textarea id="formOrder" placeholder="Tell us what you'd like to order — flavour, size, quantity..." required></textarea>
+          </div>
+          <button type="submit" class="form-submit magnetic">Send via WhatsApp →</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- SOCIAL -->
+  <section class="section" style="text-align:center">
+    <div class="container glass-reveal">
+      <span class="section-tag">Stay Connected</span>
+      <h2 style="font-family:'Fraunces',serif;font-size:clamp(1.6rem,3.5vw,2.2rem);font-weight:300;margin-bottom:0.8rem">Follow <span style="font-style:italic;color:var(--gold)">@cakoobakery</span></h2>
+      <p style="color:rgba(36,20,16,0.5);margin-bottom:2rem;max-width:480px;margin-left:auto;margin-right:auto">Behind-the-scenes, daily specials, new flavours, and a little extra magic.</p>
+      <div style="display:flex;justify-content:center;gap:1rem;flex-wrap:wrap">
+        <a href="https://instagram.com/cakoobakery" target="_blank" class="hero-cta magnetic">Instagram</a>
+        <a href="https://facebook.com/cakoobakery" target="_blank" class="hero-cta magnetic" style="background:var(--berry);color:var(--white)">Facebook</a>
+        <a href="https://wa.me/923299927777" target="_blank" class="hero-cta magnetic" style="background:#25D366;color:var(--white)">WhatsApp</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <h3>Cakoo<span>.</span></h3>
+        <p>Where Cravings Meet Magic</p>
+        <p class="footer-tag">Joy in every bite</p>
+      </div>
+      <div class="footer-links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="index.html" data-transition>Home</a></li>
+          <li><a href="menu.html" data-transition>Menu</a></li>
+          <li><a href="gallery.html" data-transition>Gallery</a></li>
+          <li><a href="about.html" data-transition>About</a></li>
+          <li><a href="contact.html" data-transition>Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-social">
+        <h4>Follow Us</h4>
+        <a href="https://instagram.com/cakoobakery" target="_blank">Instagram</a>
+        <a href="https://facebook.com/cakoobakery" target="_blank">Facebook</a>
+        <a href="https://wa.me/923299927777" target="_blank">WhatsApp</a>
+      </div>
+      <div class="footer-contact">
+        <h4>Contact</h4>
+        <a href="https://wa.me/923299927777" target="_blank">+92 329 9927777</a>
+        <p>Attock &amp; Wah Cantt</p>
+        <p style="font-size:0.8rem">3rd branch opening 28th June</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2025 Cakoo Bakery. All rights reserved.</p>
+    </div>
+  </footer>
+
+  </div><!-- /page-transition -->
+
+  <!-- MODAL -->
+  <div class="modal-overlay" id="productModal">
+    <div class="modal">
+      <button class="modal-close" id="modalClose">&times;</button>
+      <img id="modalImg" src="" alt="" />
+      <div class="modal-body">
+        <span class="modal-tag">Menu Item</span>
+        <h3 id="modalTitle"></h3>
+        <p class="modal-desc" id="modalDesc"></p>
+        <span class="modal-price" id="modalPrice"></span><br/>
+        <a href="" id="modalWhatsApp" target="_blank" class="modal-wa">Order via WhatsApp →</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- LIGHTBOX -->
+  <div class="lightbox" id="lightbox">
+    <button class="lightbox-close" id="lightboxClose">&times;</button>
+    <img id="lightboxImg" src="" alt="" />
+  </div>
+
+  <script src="https://unpkg.com/lenis@1.1.13/dist/lenis.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gallery — Cakoo Bakery</title>
+  <meta name="description" content="Browse Cakoo Bakery's creations — handcrafted cakes, desserts, donuts & more. Follow @cakoobakery on Instagram." />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body data-page="gallery">
+
+  <div class="cursor-dot"></div>
+  <div class="cursor-ring"></div>
+
+  <div class="page-transition">
+
+  <!-- NAV -->
+  <nav id="stickyNav" class="sticky-nav scrolled">
+    <div class="nav-inner">
+      <a href="index.html" class="logo" data-transition>Cakoo<span>.</span></a>
+      <ul id="navLinks" class="nav-links">
+        <li><a href="index.html" data-page="home" data-transition>Home</a></li>
+        <li><a href="menu.html" data-page="menu" data-transition>Menu</a></li>
+        <li><a href="gallery.html" data-page="gallery" data-transition>Gallery</a></li>
+        <li><a href="about.html" data-page="about" data-transition>About</a></li>
+        <li><a href="contact.html" data-page="contact" data-transition>Contact</a></li>
+        <li><a href="https://wa.me/923299927777?text=Hi%20Cakoo!%20I'd%20like%20to%20browse%20your%20menu" target="_blank" class="nav-cta">Order Now</a></li>
+        <li><a href="https://wa.me/923299927777?text=Hi%20Cakoo!%20I'd%20like%20to%20browse%20your%20menu" target="_blank" class="mobile-cta">Order Now</a></li>
+      </ul>
+      <div id="hamburger" class="hamburger"><span></span><span></span><span></span></div>
+    </div>
+  </nav>
+
+  <!-- PAGE HEADER -->
+  <section class="page-header">
+    <div class="container" style="text-align:center">
+      <span class="section-tag" style="color:var(--gold)">@cakoobakery</span>
+      <h1>From Our <span>Kitchen</span></h1>
+      <p>Every creation is a work of art. Tap any image to view full size.</p>
+    </div>
+  </section>
+
+  <!-- GALLERY GRID -->
+  <section class="section" style="padding-top:0">
+    <div class="container">
+      <div class="gallery-grid" id="galleryGrid"></div>
+    </div>
+  </section>
+
+  <!-- SOCIAL CTA -->
+  <section class="section" style="background:var(--white);text-align:center;padding-top:3rem">
+    <div class="container glass-reveal">
+      <span class="section-tag">Follow Us</span>
+      <h2 style="font-family:'Fraunces',serif;font-size:clamp(1.6rem,3.5vw,2.2rem);font-weight:300;margin-bottom:1rem">More on <span style="font-style:italic;color:var(--gold)">Instagram</span></h2>
+      <p style="color:rgba(36,20,16,0.5);margin-bottom:2rem">We post daily — behind the scenes, new flavours, specials &amp; more.</p>
+      <a href="https://instagram.com/cakoobakery" target="_blank" class="hero-cta magnetic">@cakoobakery →</a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <h3>Cakoo<span>.</span></h3>
+        <p>Where Cravings Meet Magic</p>
+        <p class="footer-tag">Joy in every bite</p>
+      </div>
+      <div class="footer-links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="index.html" data-transition>Home</a></li>
+          <li><a href="menu.html" data-transition>Menu</a></li>
+          <li><a href="gallery.html" data-transition>Gallery</a></li>
+          <li><a href="about.html" data-transition>About</a></li>
+          <li><a href="contact.html" data-transition>Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-social">
+        <h4>Follow Us</h4>
+        <a href="https://instagram.com/cakoobakery" target="_blank">Instagram</a>
+        <a href="https://facebook.com/cakoobakery" target="_blank">Facebook</a>
+        <a href="https://wa.me/923299927777" target="_blank">WhatsApp</a>
+      </div>
+      <div class="footer-contact">
+        <h4>Contact</h4>
+        <a href="https://wa.me/923299927777" target="_blank">+92 329 9927777</a>
+        <p>Attock &amp; Wah Cantt</p>
+        <p style="font-size:0.8rem">3rd branch opening 28th June</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2025 Cakoo Bakery. All rights reserved.</p>
+    </div>
+  </footer>
+
+  </div><!-- /page-transition -->
+
+  <!-- LIGHTBOX -->
+  <div class="lightbox" id="lightbox">
+    <button class="lightbox-close" id="lightboxClose">&times;</button>
+    <img id="lightboxImg" src="" alt="" />
+  </div>
+
+  <script src="https://unpkg.com/lenis@1.1.13/dist/lenis.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

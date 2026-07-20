@@ -1,0 +1,15 @@
+{
+  "name": "cakoo-bakery",
+  "version": "1.0.0",
+  "description": "Cakoo Bakery — multi-page website with Express backend, full categorized menu, WhatsApp ordering.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.0"
+  },
+  "keywords": ["cakoo", "bakery", "cakes", "attock", "wah-cantt"],
+  "license": "MIT"
+}
